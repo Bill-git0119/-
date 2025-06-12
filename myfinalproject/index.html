@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>遊戲首頁 - 我的遊戲專案</title>
+    <style>
+        body {
+            font-family: "微軟正黑體", sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: #333;
+        }
+        .btn {
+            margin: 20px;
+            padding: 15px 40px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>歡迎來到我的遊戲！</h1>
+        <p>請註冊帳號後開始挑戰！</p>
+
+        <!-- 修改這裡 -->
+        <button class="btn" onclick="window.location.href='register.php'">註冊帳號</button>
+    </div>
+
+    <script>
+        function startGame() {
+            alert("遊戲即將開始！");
+        }
+    </script>
+
+</body>
+</html>
+
+
